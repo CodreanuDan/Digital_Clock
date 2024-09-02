@@ -1,0 +1,369 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 1000.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 10.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("Ck")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("IesireButon")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("SetMH")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("SetML")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("Ck")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 10.0;
+		}
+	}
+}
+
+TRANSITION_LIST("IesireButon")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 2.636;
+			LEVEL X FOR 4.924;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 0.459;
+			LEVEL 0 FOR 60.024;
+			LEVEL 1 FOR 9.603;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 10.086;
+			LEVEL 0 FOR 9.914;
+			LEVEL 1 FOR 2.526;
+		}
+	}
+}
+
+TRANSITION_LIST("SetMH")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 10.0;
+			LEVEL 1 FOR 60.0;
+			LEVEL 0 FOR 930.0;
+		}
+	}
+}
+
+TRANSITION_LIST("SetML")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 80.0;
+			LEVEL 1 FOR 60.0;
+			LEVEL 0 FOR 860.0;
+		}
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "Ck";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SetMH";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "SetML";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "IesireButon";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 0;
+	MASTER = TRUE;
+}
+;

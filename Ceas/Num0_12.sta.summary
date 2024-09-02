@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 900mV 100C Model Setup 'Ck'
+Slack : -1.256
+TNS   : -5.835
+
+Type  : Slow 900mV 100C Model Setup 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : -0.231
+TNS   : -0.352
+
+Type  : Slow 900mV 100C Model Setup 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : -0.150
+TNS   : -0.217
+
+Type  : Slow 900mV 100C Model Setup 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 0.366
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 0.296
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'Ck'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Hold 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Recovery 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : -5.486
+TNS   : -16.458
+
+Type  : Slow 900mV 100C Model Recovery 'Ck'
+Slack : -2.376
+TNS   : -14.256
+
+Type  : Slow 900mV 100C Model Removal 'Ck'
+Slack : 0.619
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Removal 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 2.857
+TNS   : 0.000
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'Ck'
+Slack : -2.846
+TNS   : -55.715
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : -1.000
+TNS   : -6.411
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : -1.000
+TNS   : -6.406
+
+Type  : Slow 900mV 100C Model Minimum Pulse Width 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : -1.000
+TNS   : -4.809
+
+Type  : Slow 900mV -40C Model Setup 'Ck'
+Slack : -1.022
+TNS   : -4.947
+
+Type  : Slow 900mV -40C Model Setup 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : -0.298
+TNS   : -0.355
+
+Type  : Slow 900mV -40C Model Setup 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : -0.209
+TNS   : -0.209
+
+Type  : Slow 900mV -40C Model Setup 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 0.391
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'Ck'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 0.286
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Hold 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : 0.298
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Recovery 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : -5.080
+TNS   : -15.240
+
+Type  : Slow 900mV -40C Model Recovery 'Ck'
+Slack : -2.099
+TNS   : -12.594
+
+Type  : Slow 900mV -40C Model Removal 'Ck'
+Slack : 0.345
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Removal 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 2.678
+TNS   : 0.000
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'Ck'
+Slack : -2.846
+TNS   : -55.850
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : -1.000
+TNS   : -6.436
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : -1.000
+TNS   : -6.425
+
+Type  : Slow 900mV -40C Model Minimum Pulse Width 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : -1.000
+TNS   : -4.830
+
+Type  : Fast 900mV -40C Model Setup 'Ck'
+Slack : -0.593
+TNS   : -2.333
+
+Type  : Fast 900mV -40C Model Setup 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : 0.416
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : 0.434
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Setup 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 0.688
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'Ck'
+Slack : 0.150
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : 0.151
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Hold 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : 0.152
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Recovery 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : -2.594
+TNS   : -7.782
+
+Type  : Fast 900mV -40C Model Recovery 'Ck'
+Slack : -0.796
+TNS   : -4.776
+
+Type  : Fast 900mV -40C Model Removal 'Ck'
+Slack : 0.509
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Removal 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : 1.511
+TNS   : 0.000
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'Ck'
+Slack : -2.846
+TNS   : -25.004
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'BLNum:BLNUM|NumH:inst4|Num0_9:inst|inst3'
+Slack : -0.339
+TNS   : -1.815
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'BLNum:BLNUM|NumM:inst3|Num0_9:inst|inst3'
+Slack : -0.320
+TNS   : -2.425
+
+Type  : Fast 900mV -40C Model Minimum Pulse Width 'BLNum:BLNUM|NumS:inst|Num0_9:inst|inst3'
+Slack : -0.314
+TNS   : -2.429
+
+------------------------------------------------------------

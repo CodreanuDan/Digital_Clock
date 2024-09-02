@@ -1,0 +1,36 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.285 ns
+From           : inst
+To             : Q0
+From Clock     : Ck
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'Ck'
+Slack          : N/A
+Required Time  : None
+Actual Time    : Restricted to 405.19 MHz ( period = 2.468 ns )
+From           : inst
+To             : inst
+From Clock     : Ck
+To Clock       : Ck
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

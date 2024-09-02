@@ -1,0 +1,114 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 160 176)
+	(text "BLNum" (rect 5 0 48 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 139 24 156)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "SetMH" (rect 0 0 40 19)(font "Intel Clear" (font_size 8)))
+		(text "SetMH" (rect 21 27 61 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "SetHH" (rect 0 0 38 19)(font "Intel Clear" (font_size 8)))
+		(text "SetHH" (rect 21 43 59 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "SetML" (rect 0 0 37 19)(font "Intel Clear" (font_size 8)))
+		(text "SetML" (rect 21 59 58 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "SetHL" (rect 0 0 36 19)(font "Intel Clear" (font_size 8)))
+		(text "SetHL" (rect 21 75 57 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "Ck" (rect 0 0 15 19)(font "Intel Clear" (font_size 8)))
+		(text "Ck" (rect 21 91 36 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 96)(pt 16 96))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "Reset" (rect 0 0 33 19)(font "Intel Clear" (font_size 8)))
+		(text "Reset" (rect 21 107 54 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 112)(pt 16 112))
+	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "uS[3..0]" (rect 0 0 46 19)(font "Intel Clear" (font_size 8)))
+		(text "uS[3..0]" (rect 77 27 123 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 32)(pt 128 32)(line_width 3))
+	)
+	(port
+		(pt 144 48)
+		(output)
+		(text "zS[2..0]" (rect 0 0 44 19)(font "Intel Clear" (font_size 8)))
+		(text "zS[2..0]" (rect 79 43 123 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 48)(pt 128 48)(line_width 3))
+	)
+	(port
+		(pt 144 64)
+		(output)
+		(text "uM[3..0]" (rect 0 0 48 19)(font "Intel Clear" (font_size 8)))
+		(text "uM[3..0]" (rect 75 59 123 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 64)(pt 128 64)(line_width 3))
+	)
+	(port
+		(pt 144 80)
+		(output)
+		(text "uH[3..0]" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "uH[3..0]" (rect 76 75 123 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 80)(pt 128 80)(line_width 3))
+	)
+	(port
+		(pt 144 96)
+		(output)
+		(text "zM[2..0]" (rect 0 0 47 19)(font "Intel Clear" (font_size 8)))
+		(text "zM[2..0]" (rect 76 91 123 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 96)(pt 128 96)(line_width 3))
+	)
+	(port
+		(pt 144 112)
+		(output)
+		(text "zH[1..0]" (rect 0 0 46 19)(font "Intel Clear" (font_size 8)))
+		(text "zH[1..0]" (rect 77 107 123 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 144 112)(pt 128 112)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 144))
+	)
+)

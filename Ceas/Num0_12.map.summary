@@ -1,0 +1,20 @@
+Analysis & Synthesis Status : Successful - Wed Feb 15 14:25:49 2023
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : Num0_12
+Top-level Entity Name : SchemaFinala
+Family : Arria II GX
+Logic utilization : N/A
+    Combinational ALUTs : 68
+    Memory ALUTs : 0
+    Dedicated logic registers : 36
+Total registers : 36
+Total pins : 70
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 18-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0
+Total DLLs : 0
