@@ -2,6 +2,10 @@
 
 This project is a digital clock designed using Quartus software with a 3.51 MHz oscillator frequency. The clock features a multiplexed display in common cathode mode on a BCD 7-segment display. It shows 6 characters: hours, minutes, and seconds in a 24-hour format. The clock also includes an adjustable alarm.
 
+<img src="https://github.com/user-attachments/assets/508f0238-df61-49d5-990e-2c265ff0ed82" alt="Clock component" width="400">
+*Diagram of the final component.*
+
+
 ## Main Components of the Clock
 
 ### 1. Frequency Divider 🔄
